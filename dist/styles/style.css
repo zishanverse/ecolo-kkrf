@@ -1411,7 +1411,7 @@ a {
       background: #37bb44;
       right: 2rem; }
   .home-splash .home-splash__comm, .home-splash .home-splash__indu {
-    background-image: url(/dist/images/interface/landingpage-commerical-img.jpg);
+    background-image: url(/dist/images/interface/landingpage-commerical-img.webp);
     width: 50%;
     text-align: center;
     position: relative;
@@ -1447,7 +1447,7 @@ a {
       opacity: 0.4;
       transition: .35s all ease; }
   .home-splash .home-splash__indu {
-    background-image: url(/dist/images/interface/landingpage-industrial-img.jpg); }
+    background-image: url(/dist/images/interface/landingpage-industrial-img.webp); }
     .home-splash .home-splash__indu::after {
       background-color: #37bb44;
       content: '\ea3c'; }
@@ -1498,7 +1498,7 @@ a {
 .comm-home {
   padding: 15rem 0;
   width: 100%;
-  background-image: url(/dist/images/interface/commerical-home-bg.jpg);
+  background-image: url(/dist/images/interface/commerical-home-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -1802,7 +1802,7 @@ a {
   transition: background 0.5s linear;
   padding-top: 17rem; }
   .comm-services.indd, .contact-page.indd, .indu-services.indd, .indu-technologies.indd, .comm-technologies.indd, .thankyou-page.indd, .about-page.indd, .error-page.indd {
-    background-image: url(/dist/images/interface/industrial-services-opening-bg.jpg); }
+    background-image: url(/dist/images/interface/industrial-services-opening-bg.webp); }
   .comm-services .services__intro, .comm-services .about__intro, .contact-page .services__intro, .contact-page .about__intro, .indu-services .services__intro, .indu-services .about__intro, .indu-technologies .services__intro, .indu-technologies .about__intro, .comm-technologies .services__intro, .comm-technologies .about__intro, .thankyou-page .services__intro, .thankyou-page .about__intro, .about-page .services__intro, .about-page .about__intro, .error-page .services__intro, .error-page .about__intro {
     width: 100%;
     max-width: 126rem;
@@ -2035,7 +2035,7 @@ a {
   background-position: right top; }
 
 .comm-technologies, .error-page {
-  background-image: url(/dist/images/interface/commerical-technologies-opening-bg.jpg);
+  background-image: url(/dist/images/interface/commerical-technologies-opening-bg.webp);
   background-position: center top; }
   .comm-technologies .og-intro-img, .comm-technologies .swap-intro-img, .error-page .og-intro-img, .error-page .swap-intro-img {
     max-width: 40rem; }
@@ -2168,9 +2168,9 @@ a {
       display: none; } }
 
 .about-page {
-  background-image: url(/dist/images/interface/commerical-about-opening-bg.jpg); }
+  background-image: url(/dist/images/interface/commerical-about-opening-bg.webp); }
   .about-page.indd {
-    background-image: url(/dist/images/interface/industrial-about-opening-bg.jpg);
+    background-image: url(/dist/images/interface/industrial-about-opening-bg.webp);
     background-position: center; }
   .about-page.policy {
     background-image: none;
@@ -2180,20 +2180,20 @@ a {
     background-color: #1a301f; }
 
 .contact-page {
-  background-image: url(/dist/images/interface/commerical-contact-opening-bg.jpg);
+  background-image: url(/dist/images/interface/commerical-contact-opening-bg.webp);
   background-position: center; }
   .contact-page.indd {
-    background-image: url(/dist/images/interface/industrial-contact-opening-bg.jpg); }
+    background-image: url(/dist/images/interface/industrial-contact-opening-bg.webp); }
   .contact-page.faq-comm {
     min-height: auto;
-    background-image: url(/dist/images/interface/commerical-contact-faq-opening-bg.jpg);
+    background-image: url(/dist/images/interface/commerical-contact-faq-opening-bg.webp);
     background-position: left bottom; }
   .contact-page.faq-indd {
     min-height: auto;
-    background-image: url(/dist/images/interface/industrial-contact-faq-opening-bg.jpg);
+    background-image: url(/dist/images/interface/industrial-contact-faq-opening-bg.webp);
     background-position: left bottom; }
   .contact-page.free-trial-opening {
-    background-image: url(/dist/images/interface/commerical-contact-trial-opening-bg-2.jpg);
+    background-image: url(/dist/images/interface/commerical-contact-trial-opening-bg-2.webp);
     background-position: right bottom; }
 
 .tel {
@@ -2207,9 +2207,9 @@ a {
 .thankyou-page {
   height: 100vh;
   min-height: 80rem;
-  background-image: url(/dist/images/interface/commerical-about-opening-bg.jpg); }
+  background-image: url(/dist/images/interface/commerical-about-opening-bg.webp); }
   .thankyou-page.indd {
-    background-image: url(/dist/images/interface/industrial-about-opening-bg.jpg); }
+    background-image: url(/dist/images/interface/industrial-about-opening-bg.webp); }
 
 .service {
   padding: 16rem 0 20rem;
@@ -2553,7 +2553,7 @@ a {
 
 /* ========== 00. Commercial FAQs (commercial/views/faqs/index.phtml) ========== */
 .comm-faqs, .indu-faqs {
-  background-image: url(/dist/images/interface/commerical-faq-opening-bg.jpg);
+  background-image: url(/dist/images/interface/commerical-faq-opening-bg.webp);
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
@@ -2979,7 +2979,7 @@ a {
     background-color: rgba(26, 48, 31, 0.8); }
 
 .indu-services {
-  background-image: url(/dist/images/interface/industrial-services-opening-bg.jpg); }
+  background-image: url(/dist/images/interface/industrial-services-opening-bg.webp); }
 
 .indu-service .service__callout {
   background-color: rgba(112, 112, 112, 0.8);
@@ -3038,7 +3038,7 @@ a {
 /* ========== 00. Industrial FAQs (industrial/views/faqs/index.phtml) ========== */
 /* ========== 00. Commercial FAQs (commercial/views/faqs/index.phtml) ========== */
 .indu-faqs {
-  background-image: url(/dist/images/interface/industrial-faq-opening-bg.jpg); }
+  background-image: url(/dist/images/interface/industrial-faq-opening-bg.webp); }
   .indu-faqs .more-questions {
     background-color: rgba(55, 187, 68, 0.8);
     box-shadow: inset 0 4px 0 0 #37bb44; }

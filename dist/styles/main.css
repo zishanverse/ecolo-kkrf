@@ -2162,7 +2162,7 @@ a:active,a:focus,a:hover {
 }
 
 .home-splash .home-splash__comm,.home-splash .home-splash__indu {
-    background-image: url(/dist/images/interface/landingpage-commerical-img.jpg);
+    background-image: url(/dist/images/interface/landingpage-commerical-img.webp);
     width: 50%;
     text-align: center;
     position: relative;
@@ -2208,7 +2208,7 @@ a:active,a:focus,a:hover {
 }
 
 .home-splash .home-splash__indu {
-    background-image: url(/dist/images/interface/landingpage-industrial-img.jpg)
+    background-image: url(/dist/images/interface/landingpage-industrial-img.webp)
 }
 
 .home-splash .home-splash__indu:after {
@@ -2272,7 +2272,7 @@ a:active,a:focus,a:hover {
 .comm-home {
     padding: 15rem 0;
     width: 100%;
-    background-image: url(/dist/images/interface/commerical-home-bg.jpg);
+    background-image: url(/dist/images/interface/commerical-home-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%
@@ -2729,7 +2729,7 @@ a:active,a:focus,a:hover {
 }
 
 .about-page.indd,.comm-services.indd,.comm-technologies.indd,.contact-page.indd,.error-page.indd,.indu-services.indd,.indu-technologies.indd,.thankyou-page.indd {
-    background-image: url(/dist/images/interface/industrial-services-opening-bg.jpg)
+    background-image: url(/dist/images/interface/industrial-services-opening-bg.webp)
 }
 
 .about-page .about__intro,.about-page .services__intro,.comm-services .about__intro,.comm-services .services__intro,.comm-technologies .about__intro,.comm-technologies .services__intro,.contact-page .about__intro,.contact-page .services__intro,.error-page .about__intro,.error-page .services__intro,.indu-services .about__intro,.indu-services .services__intro,.indu-technologies .about__intro,.indu-technologies .services__intro,.thankyou-page .about__intro,.thankyou-page .services__intro {
@@ -3075,7 +3075,7 @@ a:active,a:focus,a:hover {
 }
 
 .comm-technologies,.error-page {
-    background-image: url(/dist/images/interface/commerical-technologies-opening-bg.jpg);
+    background-image: url(/dist/images/interface/commerical-technologies-opening-bg.webp);
     background-position: top
 }
 
@@ -3251,11 +3251,11 @@ a:active,a:focus,a:hover {
 }
 
 .about-page {
-    background-image: url(/dist/images/interface/commerical-about-opening-bg.jpg)
+    background-image: url(/dist/images/interface/commerical-about-opening-bg.webp)
 }
 
 .about-page.indd {
-    background-image: url(/dist/images/interface/industrial-about-opening-bg.jpg);
+    background-image: url(/dist/images/interface/industrial-about-opening-bg.webp);
     background-position: 50%
 }
 
@@ -3270,28 +3270,28 @@ a:active,a:focus,a:hover {
 }
 
 .contact-page {
-    background-image: url(/dist/images/interface/commerical-contact-opening-bg.jpg);
+    background-image: url(/dist/images/interface/commerical-contact-opening-bg.webp);
     background-position: 50%
 }
 
 .contact-page.indd {
-    background-image: url(/dist/images/interface/industrial-contact-opening-bg.jpg)
+    background-image: url(/dist/images/interface/industrial-contact-opening-bg.webp)
 }
 
 .contact-page.faq-comm {
     min-height: auto;
-    background-image: url(/dist/images/interface/commerical-contact-faq-opening-bg.jpg);
+    background-image: url(/dist/images/interface/commerical-contact-faq-opening-bg.webp);
     background-position: 0 100%
 }
 
 .contact-page.faq-indd {
     min-height: auto;
-    background-image: url(/dist/images/interface/industrial-contact-faq-opening-bg.jpg);
+    background-image: url(/dist/images/interface/industrial-contact-faq-opening-bg.webp);
     background-position: 0 100%
 }
 
 .contact-page.free-trial-opening {
-    background-image: url(/dist/images/interface/commerical-contact-trial-opening-bg-2.jpg);
+    background-image: url(/dist/images/interface/commerical-contact-trial-opening-bg-2.webp);
     background-position: 100% 100%
 }
 
@@ -3309,11 +3309,11 @@ a:active,a:focus,a:hover {
 .thankyou-page {
     height: 100vh;
     min-height: 80rem;
-    background-image: url(/dist/images/interface/commerical-about-opening-bg.jpg)
+    background-image: url(/dist/images/interface/commerical-about-opening-bg.webp)
 }
 
 .thankyou-page.indd {
-    background-image: url(/dist/images/interface/industrial-about-opening-bg.jpg)
+    background-image: url(/dist/images/interface/industrial-about-opening-bg.webp)
 }
 
 .service {
@@ -3807,7 +3807,7 @@ a:active,a:focus,a:hover {
 }
 
 .comm-faqs,.indu-faqs {
-    background-image: url(/dist/images/interface/commerical-faq-opening-bg.jpg);
+    background-image: url(/dist/images/interface/commerical-faq-opening-bg.webp);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -4412,7 +4412,7 @@ a:active,a:focus,a:hover {
 }
 
 .indu-services {
-    background-image: url(/dist/images/interface/industrial-services-opening-bg.jpg)
+    background-image: url(/dist/images/interface/industrial-services-opening-bg.webp)
 }
 
 .indu-service .service__callout {
@@ -4485,7 +4485,7 @@ a:active,a:focus,a:hover {
 }
 
 .indu-faqs {
-    background-image: url(/dist/images/interface/industrial-faq-opening-bg.jpg)
+    background-image: url(/dist/images/interface/industrial-faq-opening-bg.webp)
 }
 
 .indu-faqs .more-questions {

@@ -1,0 +1,258 @@
+@mixin transition($n){
+    transition:all $n ease;
+    -webkit-transition:all $n ease;
+    -moz-transition:all $n ease;
+  }
+  @mixin background-image($size, $position, $img){
+    background-image:url($img);
+    background-repeat:no-repeat !important;
+    background-size:$size !important;
+    background-position:$position !important;
+  }
+  
+  @mixin flex{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex !important;
+    -ms-flex-align: center;
+    -webkit-align-items: center !important;
+    -webkit-box-align: center !important;
+    align-items: center !important;
+  }
+  
+  
+  @mixin responsive-font($responsive, $min, $max: false, $fallback: false) {
+    $responsive-unitless: $responsive / ($responsive - $responsive + 1);
+    $dimension: if(unit($responsive) == 'vh', 'height', 'width');
+    $min-breakpoint: $min / $responsive-unitless * 100;
+  
+    @media (max-#{$dimension}: #{$min-breakpoint}) {
+      font-size: $min;
+    }
+  
+    @if $max {
+      $max-breakpoint: $max / $responsive-unitless * 100;
+  
+      @media (min-#{$dimension}: #{$max-breakpoint}) {
+        font-size: $max;
+      }
+    }
+  
+    @if $fallback {
+      font-size: $fallback;
+    }
+  
+    font-size: $responsive;
+  }
+  
+  
+  @mixin header-overlay-desktop{
+  //   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4b4586+3,4b4586+100&1+41,0+100 */
+  // background: -moz-linear-gradient(left, rgba(75,69,134,1) 3%, rgba(75,69,134,1) 41%, rgba(75,69,134,0) 100%); /* FF3.6+ */
+  // background: -webkit-gradient(linear, left top, right top, color-stop(3%,rgba(75,69,134,1)), color-stop(41%,rgba(75,69,134,1)), color-stop(100%,rgba(75,69,134,0))); /* Chrome,Safari4+ */
+  // background: -webkit-linear-gradient(left, rgba(75,69,134,1) 3%,rgba(75,69,134,1) 41%,rgba(75,69,134,0) 100%); /* Chrome10+,Safari5.1+ */
+  // background: -o-linear-gradient(left, rgba(75,69,134,1) 3%,rgba(75,69,134,1) 41%,rgba(75,69,134,0) 100%); /* Opera 11.10+ */
+  // background: -ms-linear-gradient(left, rgba(75,69,134,1) 3%,rgba(75,69,134,1) 41%,rgba(75,69,134,0) 100%); /* IE10+ */
+  // background: linear-gradient(to right, rgba(75,69,134,1) 3%,rgba(75,69,134,1) 41%,rgba(75,69,134,0) 100%); /* W3C */
+  // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4586', endColorstr='#004b4586',GradientType=1 ); /* IE6-9 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1174c1+23,7db9e8+100&1+52,0+100 */
+  background: -moz-linear-gradient(left, rgba(17,116,193,1) 23%, rgba(58,142,208,1) 52%, rgba(125,185,232,0) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(23%,rgba(17,116,193,1)), color-stop(52%,rgba(58,142,208,1)), color-stop(100%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, rgba(17,116,193,1) 23%,rgba(58,142,208,1) 52%,rgba(125,185,232,0) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, rgba(17,116,193,1) 23%,rgba(58,142,208,1) 52%,rgba(125,185,232,0) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, rgba(17,116,193,1) 23%,rgba(58,142,208,1) 52%,rgba(125,185,232,0) 100%); /* IE10+ */
+  background: linear-gradient(to right, rgba(17,116,193,1) 23%,rgba(58,142,208,1) 52%,rgba(125,185,232,0) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1174c1', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */
+  }
+  
+  @mixin header-overlay-tablet{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4b4586+22,4b4586+100&1+20,0+100 */
+  // background: -moz-linear-gradient(left, rgba(75,69,134,1) 20%, rgba(75,69,134,0.98) 22%, rgba(75,69,134,0) 100%); /* FF3.6+ */
+  // background: -webkit-gradient(linear, left top, right top, color-stop(20%,rgba(75,69,134,1)), color-stop(22%,rgba(75,69,134,0.98)), color-stop(100%,rgba(75,69,134,0))); /* Chrome,Safari4+ */
+  // background: -webkit-linear-gradient(left, rgba(75,69,134,1) 20%,rgba(75,69,134,0.98) 22%,rgba(75,69,134,0) 100%); /* Chrome10+,Safari5.1+ */
+  // background: -o-linear-gradient(left, rgba(75,69,134,1) 20%,rgba(75,69,134,0.98) 22%,rgba(75,69,134,0) 100%); /* Opera 11.10+ */
+  // background: -ms-linear-gradient(left, rgba(75,69,134,1) 20%,rgba(75,69,134,0.98) 22%,rgba(75,69,134,0) 100%); /* IE10+ */
+  // background: linear-gradient(to right, rgba(75,69,134,1) 20%,rgba(75,69,134,0.98) 22%,rgba(75,69,134,0) 100%); /* W3C */
+  // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4586', endColorstr='#004b4586',GradientType=1 ); /* IE6-9 */
+  background: -moz-linear-gradient(left, rgba(17,116,193,1) 23%, rgba(58,142,208,1) 52%, rgba(125,185,232,0) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(23%,rgba(17,116,193,1)), color-stop(52%,rgba(58,142,208,1)), color-stop(100%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, rgba(17,116,193,1) 23%,rgba(58,142,208,1) 52%,rgba(125,185,232,0) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, rgba(17,116,193,1) 23%,rgba(58,142,208,1) 52%,rgba(125,185,232,0) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, rgba(17,116,193,1) 23%,rgba(58,142,208,1) 52%,rgba(125,185,232,0) 100%); /* IE10+ */
+  background: linear-gradient(to right, rgba(17,116,193,1) 23%,rgba(58,142,208,1) 52%,rgba(125,185,232,0) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1174c1', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */
+  }
+  /* @include when-inside('.example'){ */
+  @mixin when-inside($selector) {
+    #{$selector} & {
+      @content;
+    }
+  }
+  
+  
+  /*  @include family-of(3){  */
+  @mixin family-of($n) {  
+    &:first-child:nth-last-child(#{$n}) ~ &,
+    &:first-child:nth-last-child(#{$n}) {
+      @content;
+    }
+  }
+  
+  
+  /* @include nth-of-family(3, 7) { */
+  @mixin nth-of-family($n, $m) {
+    $m: $m + 1 - $n;
+    &:nth-child(#{$n}):nth-last-child(#{$m}) {
+      @content;
+    }
+  }
+  
+  // Check if z-index item appears in $list. If not, return an errors
+  @function z($list, $element) {
+     $z-index: index($list, $element);
+  
+     @if $z-index {
+        @return $z-index;
+     }
+  
+     @warn 'There is no item "#{$element}" in this list; choose one of: #{$list}';
+     @return null;
+  }   
+  
+  @mixin phone {
+    @media (max-width: #{$phone-width}) {
+      @content;
+    }
+  }
+  
+  @mixin phone-large {
+    @media (min-width: #{$phone-width}) and (max-width: #{$phone-large-width - 1px}) {
+      @content;
+    }
+  }
+  
+  @mixin phone-large-below {
+    @media (max-width: #{$phone-large-width - 1px}) {
+      @content;
+    }
+  }
+  
+  @mixin tablet {
+    @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+      @content;
+    }
+  }
+  
+  @mixin tablet-below {
+    @media (max-width: #{$tablet-width}) {
+      @content;
+    }
+  }
+  
+  
+  @mixin desktop {
+    @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-medium-width - 1px}) {
+      @content;
+    }
+  }
+  
+  
+  @mixin desktop-below {
+    @media (max-width: #{$desktop-width}) {
+      @content;
+    }
+  }
+  
+  @mixin desktop-above {
+    @media (min-width: #{$desktop-width}){
+      @content;
+    }
+  }
+  
+  
+  
+  @mixin desktop-small-above {
+    @media (min-width: #{$desktop-small-width}){
+      @content;
+    }
+  }
+  
+  @mixin desktop-small {
+    @media (min-width: #{$desktopwidth}) and (max-width: #{$desktop-small-width - 1px}) {
+      @content;
+    }
+  }
+  
+  
+  @mixin desktop-small-below {
+    @media (max-width: #{$desktop-small-width}) {
+      @content;
+    }
+  }
+  
+  
+  @mixin desktop-medium {
+     @media (min-width: #{$desktop-width}) and (max-width: #{$desktop-medium-width - 1px}) {
+      @content;
+    }
+  }
+  
+  @mixin desktop-medium-below {
+     @media (max-width: #{$desktop-medium-width - 1px}) {
+      @content;
+    }
+  }
+  
+  @mixin desktop-medium-above {
+     @media (min-width: #{$desktop-medium-width}) {
+      @content;
+    }
+  }
+  
+  
+  @mixin desktop-large {
+     @media (min-width: #{$desktop-medium-width}) and (max-width: #{$desktop-large-width - 1px}) {
+      @content;
+    }
+  }
+  
+  
+  @mixin desktop-large-below {
+     @media (max-width: #{$desktop-large-width - 1px}) {
+      @content;
+    }
+  }
+  
+  
+  @mixin desktop-xlarge {
+     @media (min-width: #{$desktop-large-width}) and (max-width: #{$desktop-xlarge-width - 1px}) {
+      @content;
+    }
+  }
+  
+  @mixin desktop-xlarge-below {
+     @media (max-width: #{$desktop-xlarge-width - 1px}) {
+      @content;
+    }
+  }
+  
+  
+  
+  @mixin height-large {
+     @media (max-height: 1000px) {
+      @content;
+    }
+  }
+  
+  @mixin height-medium {
+     @media (max-height: 800px) {
+      @content;
+    }
+  }
+  
+  
+  @mixin height-small {
+     @media (max-height: 650px) {
+      @content;
+    }
+  }

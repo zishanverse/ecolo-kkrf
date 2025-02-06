@@ -1,0 +1,13 @@
+body {
+    width: 100%;
+    *zoom: 1; }
+    body:before, body:after {
+      content: "";
+      display: table; }
+    body:after {
+      clear: both; }
+  
+  /* @include when-inside('.example'){ */
+  /*  @include family-of(3){  */
+  /* @include nth-of-family(3, 7) { */
+  

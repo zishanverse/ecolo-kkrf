@@ -1,0 +1,58 @@
+@import "common/_grid";
+@import "common/_mixins";
+
+
+
+
+// Fonts
+
+$font-body: 	'Montserrat', sans-serif;
+$font-header: 	'Montserrat', sans-serif;
+$font-thin: 	'Montserrat', sans-serif;
+
+//Colours 
+
+$ecolo-green: #37bb44;
+$ecolo-blue: #00b0da;
+$ecolo-yellow: #f6bc18;
+$ecolo-red: #f74747;
+$ecolo-orange: #ff654c;
+$ecolo-purple: #c079c9;
+$ecolo-teal: #37b3bb;
+$ecolo-dark-blue: #0c4454;
+$ecolo-white: #ffffff;
+$ecolo-dark-green: #1a301f;
+$ecolo-gray: #707070;
+$ecolo-grey: #707070;
+$ecolo-very-dark-blue: #013544;
+// $ecolo-bluer-blue: #004baf;
+
+$ecolo-green-80: rgba( $ecolo-green, 0.8 );
+$ecolo-blue-80: rgba( $ecolo-blue, 0.8 );
+$ecolo-yellow-80: rgba( $ecolo-yellow, 0.8 );
+$ecolo-red-80: rgba( $ecolo-red, 0.8 );
+$ecolo-orange-80: rgba( $ecolo-orange, 0.8 );
+$ecolo-purple-80: rgba( $ecolo-purple, 0.8 );
+$ecolo-teal-80: rgba( $ecolo-teal, 0.8 );
+$ecolo-dark-blue-80: rgba( $ecolo-dark-blue, 0.8 );
+$ecolo-dark-green-80: rgba( $ecolo-dark-green, 0.8 );
+$ecolo-white-80: rgba( $ecolo-white, 0.8 );
+$ecolo-gray-80: rgba( $ecolo-gray, 0.8 );
+$ecolo-grey-80: rgba( $ecolo-grey, 0.8 );
+
+$admin-1: $ecolo-blue;
+$admin-2: $ecolo-orange;
+
+
+// Z-index rules for elements. Will stack according to order in list.
+$elements: header__logo, menu-subnav, home-slideshow, home-slideshow-image, home-slideshow-nav, home-slideshow-border, home-slideshow-arrow, header, side-nav-border, side-nav-active-line, footer;
+$performance-interactive: image-line, image-title;
+
+$phone-width: 320px;
+$phone-large-width: 550px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+$desktop-small-width: 1200px;
+$desktop-medium-width: 1400px;
+$desktop-large-width: 1600px;
+$desktop-xlarge-width: 1800px;

@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src:  url('fonts/icomoon.eot?sewk7c');
-    src:  url('fonts/icomoon.eot?sewk7c#iefix') format('embedded-opentype'),
+    src:  url('./fonts/icomoon.ttf');
+    /*src:  url('fonts/icomoon.eot?sewk7c#iefix') format('embedded-opentype'),
       url('fonts/icomoon.ttf?sewk7c') format('truetype'),
       url('fonts/icomoon.woff?sewk7c') format('woff'),
-      url('fonts/icomoon.svg?sewk7c#icomoon') format('svg');
+      url('fonts/icomoon.svg?sewk7c#icomoon') format('svg');*/
     font-weight: normal;
     font-style: normal;
   }
@@ -39,11 +39,11 @@
 
   @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?sewk7c');
-  src:  url('fonts/icomoon.eot?sewk7c#iefix') format('embedded-opentype'),
+  src:  url('./fonts/icomoon.ttf');
+  /*src:  url('fonts/icomoon.eot?sewk7c#iefix') format('embedded-opentype'),
     url('fonts/icomoon.ttf?sewk7c') format('truetype'),
     url('fonts/icomoon.woff?sewk7c') format('woff'),
-    url('fonts/icomoon.svg?sewk7c#icomoon') format('svg');
+    url('fonts/icomoon.svg?sewk7c#icomoon') format('svg');*/
   font-weight: normal;
   font-style: normal;
 }

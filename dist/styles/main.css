@@ -62,7 +62,7 @@
 }
 
 #fancybox-loading,.fancybox-close,.fancybox-next span,.fancybox-prev span {
-    background-image: url(/dist/images/interface/fancybox_sprite.png)
+    /*background-image: url(/dist/images/interface/fancybox_sprite.png)*/
 }
 
 #fancybox-loading {
@@ -80,7 +80,7 @@
 #fancybox-loading div {
     width: 44px;
     height: 44px;
-    background: url(/dist/images/interface/fancybox_loading.gif) 50% no-repeat
+    /*background: url(/dist/images/interface/fancybox_loading.gif) 50% no-repeat*/
 }
 
 .fancybox-close {
@@ -101,7 +101,7 @@
     width: 40%;
     height: 100%;
     text-decoration: none;
-    background: transparent url(/dist/images/interface/blank.gif);
+    /*background: transparent url(/dist/images/interface/blank.gif);*/
     -webkit-tap-highlight-color: transparent
 }
 
@@ -167,7 +167,7 @@
     overflow: hidden;
     display: none;
     z-index: 9999999;
-    background: url(/dist/images/interface/fancybox_overlay.png)
+    /*background: url(/dist/images/interface/fancybox_overlay.png)*/
 }
 
 .fancybox-overlay-fixed {
@@ -238,12 +238,12 @@
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio:1.5),only screen and (min-device-pixel-ratio:1.5) {
     #fancybox-loading,.fancybox-close,.fancybox-next span,.fancybox-prev span {
-        background-image:url(/dist/images/interface/fancybox_sprite@2x.png);
+        /*background-image:url(/dist/images/interface/fancybox_sprite@2x.png);*/
         background-size: 44px 152px
     }
 
     #fancybox-loading div {
-        background-image: url(/dist/images/interface/fancybox_loading@2x.gif);
+        /*background-image: url(/dist/images/interface/fancybox_loading@2x.gif);*/
         background-size: 24px 24px
     }
 }
@@ -2446,12 +2446,12 @@ a:active,a:focus,a:hover {
 }
 
 .comm-home .comm-home__cards .card-two h5:before {
-    background-image: url(/dist/images/interface/condos-blue-wave-small.png);
+    /*background-image: url(/dist/images/interface/condos-blue-wave-small.png);*/
     top: -1.75rem
 }
 
 .comm-home .comm-home__cards .card-three h5:before {
-    background-image: url(/dist/images/interface/gyms-gold-lemons-small.png);
+    /*background-image: url(/dist/images/interface/gyms-gold-lemons-small.png);*/
     top: -1.75rem
 }
 
@@ -2486,7 +2486,7 @@ a:active,a:focus,a:hover {
 .comm-home .comm-home__cards h5:before {
     content: "";
     display: block;
-    background-image: url(/dist/images/interface/retail-green-flower-small.png);
+    /*background-image: url(/dist/images/interface/retail-green-flower-small.png);*/
     background-size: auto;
     background-repeat: no-repeat;
     width: 100%;
@@ -2721,7 +2721,7 @@ a:active,a:focus,a:hover {
 
 .about-page,.comm-services,.comm-technologies,.contact-page,.error-page,.indu-services,.indu-technologies,.thankyou-page {
     width: 100%;
-    background-image: url(/dist/images/interface/commerical-services-opening-bg-2.jpg);
+    /*background-image: url(/dist/images/interface/commerical-services-opening-bg-2.jpg);*/
     background-size: cover;
     background-repeat: no-repeat;
     transition: background .5s linear;
@@ -4303,7 +4303,7 @@ a:active,a:focus,a:hover {
 }
 
 .indu-services,.indu-technologies {
-    background-image: url(/dist/images/interface/industrial-technologies-opening-bg.jpg);
+    /*background-image: url(/dist/images/interface/industrial-technologies-opening-bg.jpg);*/
     transition: background .5s linear
 }
 

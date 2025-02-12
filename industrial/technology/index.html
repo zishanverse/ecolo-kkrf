@@ -82,35 +82,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="/industrial/odor-control-services">Odor Control Services</a>
         <ul>
             <li>
-                <a href="/industrial/odor-control-services/waste-and-wastewater">Waste &amp; Wastewater</a>
+                <a href="/industrial/odor-control-services#waste-and-wastewater">Waste &amp; Wastewater</a>
             </li>
             <li>
-                <a href="/industrial/odor-control-services/industrial-manufacturing">Industrial Manufacturing</a>
+                <a href="/industrial/odor-control-services#industrial-manufacturing">Industrial Manufacturing</a>
             </li>
         </ul>
     </li>
-    <li>
-        <a href="/industrial/disinfectant-services">TOTAL360 DISINFECTION SERVICES</a>
-        <ul>
-            <li>
-                <a href="/industrial/disinfectant-services/hospital-grade-disinfection-service">HOSPITAL GRADE DISINFECTION SERVICE</a>
-            </li>
-        </ul>
-    </li>
+    
     <li>
         <a href="/industrial/technology">Our Technology</a>
         <ul>
             <li>
-                <a href="/industrial/technology/turnkey-solutions">Turnkey solutions</a>
+                <a href="/industrial/technology#turnkey-solutions">Turnkey solutions</a>
             </li>
             <li>
-                <a href="/industrial/technology/fine-tuned-formulations">Fine-tuned formulations</a>
+                <a href="/industrial/technology#fine-tuned-formulations">Fine-tuned formulations</a>
             </li>
             <li>
-                <a href="/industrial/technology/biochemical-additives">Biochemical Additives</a>
+                <a href="/industrial/technology#biochemical-additives">Biochemical Additives</a>
             </li>
             <li>
-                <a href="/industrial/technology/what-about-equipment-technology">What About Equipment Technology</a>
+                <a href="/industrial/technology#what-about-equipment-technology">What About Equipment Technology</a>
             </li>
         </ul>
     </li>
@@ -282,18 +275,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="/industrial/odor-control-services">Odor Control Services</a>
         <ul>
             <li>
-                <a href="/industrial/odor-control-services/waste-and-wastewater">Waste &amp; Wastewater</a>
+                <a href="/industrial/odor-control-services#waste-and-wastewater">Waste &amp; Wastewater</a>
             </li>
             <li>
-                <a href="/industrial/odor-control-services/industrial-manufacturing">Industrial Manufacturing</a>
-            </li>
-        </ul>
-    </li>
-    <li>
-        <a href="/industrial/disinfectant-services">TOTAL360 DISINFECTION SERVICES</a>
-        <ul>
-            <li>
-                <a href="/industrial/disinfectant-services/hospital-grade-disinfection-service">HOSPITAL GRADE DISINFECTION SERVICE</a>
+                <a href="/industrial/odor-control-services#industrial-manufacturing">Industrial Manufacturing</a>
             </li>
         </ul>
     </li>
@@ -301,16 +286,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="/industrial/technology">Our Technology</a>
         <ul>
             <li>
-                <a href="/industrial/technology/turnkey-solutions">Turnkey solutions</a>
+                <a href="/industrial/technology#turnkey-solutions">Turnkey solutions</a>
             </li>
             <li>
-                <a href="/industrial/technology/fine-tuned-formulations">Fine-tuned formulations</a>
+                <a href="/industrial/technology#fine-tuned-formulations">Fine-tuned formulations</a>
             </li>
             <li>
-                <a href="/industrial/technology/biochemical-additives">Biochemical Additives</a>
+                <a href="/industrial/technology#biochemical-additives">Biochemical Additives</a>
             </li>
             <li>
-                <a href="/industrial/technology/what-about-equipment-technology">What About Equipment Technology</a>
+                <a href="/industrial/technology#what-about-equipment-technology">What About Equipment Technology</a>
             </li>
         </ul>
     </li>
@@ -418,7 +403,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<h5>What about equipment technology?</h5>
 					</a>
 							</div>
-			<a href="/industrial/technology/turnkey-solutions">
+			<a href="/industrial/technology#turnkey-solutions">
 				<div class="link-bar__arrow"></div>
 			</a>
 		</div>
@@ -435,22 +420,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 <!-- end hidden div to load all of the changing background images first to remove loading glitch in hover animation -->
 
-<script>
-	$(".link-bar__item[technology-name]").mouseover(function(){
-		//alert($(this).attr('service-name'));
-		var technologyName = $(this).attr('technology-name');
-		// $('.swap-intro-img[technology-name=' + technologyName + ']').toggle();
-		$('.indu-technologies').fadeTo().css("background-image", "url(/dist/images/interface/industrial-technologies-" + technologyName + "-bg.jpg)");
-		// $('.og-intro-img').toggle();
-		$('.og-intro-img img').attr('src', '/dist/images/interface/industrial-technologies-' + technologyName + '-icon.png');
-	});
-	// $(".link-bar__item[technology-name]").mouseout(function(){
-	// 	$('.og-intro-img img').attr('src', '/dist/images/interface/commerical-services-opening-img-no-oranges.webp');
-	// });
-	// $(".link-bar__item[technology-name]").mouseout(function(){
-	// 	$('.indu-technologies').fadeTo().css("background-image", "url(/dist/images/interface/industrial-technologies-opening-bg.jpg)");
-	// });
-</script>
+
 
  <!-- ========== 00. fixed side bar ========== -->
  <div class="wrapper">
@@ -703,14 +673,14 @@ function loadFunction()
 // Update history API
 function updatePushState(target)
 {
-	var url = '/industrial/technology/index';
+	var url = '/industrial/technology/';
 	var newUrl = '/industrial/technology/';
 	var dataTarget = $('.'+navLinkClassName+'.active').attr(navSeqAttrName);
     if (dataTarget != target) {
 	    if (dataTarget != 'index' && dataTarget != '' && dataTarget != null) {
 	    	url = newUrl + dataTarget;
 	    }
-        history.replaceState('', '', url);
+        //history.replaceState('', '', url);
     }
     return dataTarget;
 }
@@ -759,9 +729,6 @@ function loadPageContent(hotPage, navSeq)
         <ul>
             <li>
                 <a href="/industrial/odor-control-services">Odor Control Services</a>
-            </li>
-            <li>
-                <a href="/industrial/disinfectant-services">TOTAL360 DISINFECTION SERVICES</a>
             </li>
             <li>
                 <a href="/industrial/technology">Our Technology</a>

@@ -1796,7 +1796,7 @@ a {
 
 .comm-services, .contact-page, .indu-services, .indu-technologies, .comm-technologies, .thankyou-page, .about-page, .error-page {
   width: 100%;
-  background-image: url(/dist/images/interface/commerical-services-opening-bg-2.jpg);
+  background-image: url(/dist/images/interface/commerical-services-opening-bg-2.webp);
   background-size: cover;
   background-repeat: no-repeat;
   transition: background 0.5s linear;
@@ -2910,7 +2910,7 @@ a {
   text-shadow: 0 0 50px black; }
 
 .indu-services, .indu-technologies {
-  background-image: url(/dist/images/interface/industrial-technologies-opening-bg.jpg);
+  background-image: url(/dist/images/interface/industrial-technologies-opening-bg.webp);
   transition: background 0.5s linear; }
   .indu-services .og-intro-img, .indu-technologies .og-intro-img {
     max-width: 40rem; }
